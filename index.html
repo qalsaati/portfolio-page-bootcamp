@@ -13,11 +13,11 @@
         <h1>My Portfolio</h1>
         <ul>
           <li><a href="#about">About Me</a></li>
-          <li><a href="projects">Projects</a></li>
-          <li><a href="contact">Contact</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <section class="about">
+      <section id="about" class="about">
         <h2>About Me</h2>
         <article>
           My name is Qasim Mohamed. Im a software engineer with a passion for
@@ -27,5 +27,41 @@
         </article>
       </section>
     </header>
+    <div id="projects" class="project">
+      <h2>Projects</h2>
+      <div class="box box-one">
+        <img src="images/gmae.jpg" />
+        <h3>Game Project</h3>
+        <p>
+          A thrilling 2D platformer where players navigate challenging levels,
+          defeat enemies, and solve puzzles to uncover hidden secrets in a
+          futuristic cyberpunk world.
+        </p>
+      </div>
+      <div class="box box-two">
+        <img src="images/logo web.jpg" />
+        <h3>Logo Project</h3>
+        <p>
+          A dynamic web-based logo generator that allows users to create custom
+          logos using AI-powered design tools, color palettes, and typography
+          suggestions for branding.
+        </p>
+      </div>
+      <div class="box box-three">
+        <img src="images/online exam.jpg" />
+        <h3>Exam Web Project</h3>
+        <p>
+          An intuitive online examination system that enables students to take
+          timed tests, receive instant results, and track progress with
+          interactive analytics and feedback.
+        </p>
+      </div>
+    </div>
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <input type="text" />
+      <textarea name="Message" id="message"></textarea>
+      <button>Send</button>
+    </section>
   </body>
 </html>

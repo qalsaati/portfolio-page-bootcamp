@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
 }
@@ -43,12 +46,83 @@ nav ul li a:hover {
 .about {
   padding: 20px;
   background-color: #f2f2f2;
+  overflow: hidden;
 }
-h2 {
+div h2 {
   margin-top: 10px;
   padding: 20px;
   margin-bottom: 10px;
+  background-color: #333;
 }
 .about article {
   font-size: 18px;
+}
+.project {
+  background-color: #222;
+  color: aliceblue;
+  padding: 1px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-one {
+}
+
+.box-one img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.box-two {
+}
+
+.box-two img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.box-three {
+}
+
+.box-three img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+p {
+  margin: 50px;
+}
+
+.contact {
+  background-color: #333;
+  padding-top: 1px;
+}
+.contact h2 {
+  color: aliceblue;
+  padding: 20px;
+}
+
+input {
+  display: block;
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+textarea {
+  width: 600px;
+  height: 250px;
+  margin: 40px;
+}
+button {
+  margin: 0 0px 40px 40px;
 }
